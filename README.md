@@ -6,7 +6,6 @@
 
 ![screenshot](/docs/Screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
@@ -16,7 +15,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-In order to use test out this project on you local machine please follow the following steps:
+In order to use test out this project on your local machine please follow the following steps:
 - Navigate to a file directory in your computer where you wish to store this project.
 
 - Clone the files to that directory by opening your Git terminal in the directory, copying the URL of this project, and entering the ```git clone``` command followed by the URL of this project. ```git clone git@github.com:YuvrajM108/members-only.git```.
@@ -29,9 +28,9 @@ In order to use test out this project on you local machine please follow the fol
 
 - To go to the main page of the app open your browser and go to ```localhost:3000```.
 
-- To Log In(if you alredy have an user) or Sing Up(if you want to create an user) press the ```Log In/Sign Up``` link.
+- To Log In(if you already have a user) or Sing Up(if you want to create a user) press the ```Login/Sign Up``` link.
 
-- To create a new post you need to be loged in and then click on ```new post```.
+- To create a new post you need to be logged in and then click on ```new post```.
 
 - To edit an existing user, open your browser and go to localhost:3000/users/(the id of that specific user)/edit.
 
