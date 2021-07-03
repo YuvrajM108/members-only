@@ -1,18 +1,24 @@
-<p id="notice"><%= notice %></p>
 
 <h1>Posts</h1>
 
 <table>
   <thead>
     <tr>
+  <% if user_signed_in? %>
+      <th>Username</th>
+      <th>Email</th>
+  <% end %>
       <th>Post</th>
-      <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @posts.each do |post| %>
       <tr>
+        <% if user_signed_in? %>
+        <td><strong><%= post.user.username %></strong></td>
+        <td><small><%= post.user.email %></small></td>
+        <% end %>
         <td><%= post.post %></td>
         <td><%= link_to 'Show', posts_path %></td>
       </tr>
@@ -20,8 +26,9 @@
   </tbody>
 </table>
 
+<% if user_signed_in? %>
 <%= link_to "Logout", destroy_user_session_path, method: :delete, class:"button is-info" %>
-
+<% end %>
 <br>
 
 <%= link_to 'New Post', new_post_path %>
