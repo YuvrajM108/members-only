@@ -4,7 +4,7 @@
 
 > In this project we built a simple Rails application, an exclusive clubhouse where the members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/docs/Screenshot.png)
 
 Additional description about the project and its features.
 
